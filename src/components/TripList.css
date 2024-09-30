@@ -1,0 +1,99 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;  /* Asegura que ocupe todo el ancho del navegador */
+  margin: 0;
+  background-color: black;  /* Fondo negro para toda la página */
+  background-image: url(/public/images/robert-murray-toCqTyxsT4Q-unsplash.jpg);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh; /* Asegura que ocupe toda la altura del viewport */
+  width: 100vw;  /* Asegura que ocupe todo el ancho del viewport */
+  background-image: url(/public/images/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tricount-list {
+  margin: 20px;
+  flex-grow: 1; /* Esto hará que la lista tome todo el espacio disponible */
+  width: 93%;  /* Asegura que ocupe todo el ancho */
+}
+
+.tricount-item {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;  /* Asegura que el item ocupe todo el ancho */
+}
+
+.tricount-item .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.tricount-item .label {
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;  /* Asegura que el footer ocupe todo el ancho */
+}
+
+.add-tricount {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 80%;  /* Opcional: controla el tamaño del botón */
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-buttons button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.footer-buttons button:focus {
+  outline: none;
+}
