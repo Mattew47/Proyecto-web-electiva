@@ -15,7 +15,7 @@ const TripList = () => {
       </div>
 
       <div className="title">
-        <h1>Lista de viajes</h1>
+        <h1>Lista de viajes holi</h1>
       </div>
 
       <div className="tricount-list">
